@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/cerulean/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Pvpc Bot Precios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Pvpc Bot Precios</title>
 </head>
+
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <nav class="navbar bg-primary navbar-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <a class="navbar-brand" href="https://t.me/pvpc_es">
+            <i class="fa d-inline fa-lg fa-circle"></i>
+            <b> pvpc_es</b>
+          </a>
+        </div>
+        <div class="col-sm-9"> <span class="navbar-text">Bot de telegram en pruebas  [Página en elaboracion]</span></div>
+      </div>
+    </div>
+   
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>pvpc_es Bot Telegram</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+         <p>El Bot envia los precios de la electriciad del dia siguiente procedente de tarifa <a href="https://www.esios.ree.es/es/pvpc">PENÍNSULA, BALEARES Y CANARIAS (PEAJE 2.0 TD)</a> todas las noches a las 21:00 hora peninsular.</p>
+         <p>Se envia una grafica con los precios por hora en centimos de euro por KW/h</p>
+          <img class="img-fluid" src="/pvpc/images/bot1.jpg" alt="">
+          <p>Se envia un listado del precio por hora en centimos de euro y redondeados a 1 decimal.
+            <br>
+           Al principio del listado se envía la fecha , precios maximos y minimos y la diverencia entre los precios maximos y minimos.
+           <br>
+          Los iconos
+          <br>
+          👍 Muestra el precio comprendido entre el minimo y el minimo + diferencia/10
+          <BR>
+          ⛔️ Muestra el precio comprendido entre el maximo y el maximo - diferencia/10</p>
+
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Precios relativos al dia</strong> Los iconos son de precios relativos al día, no significa que sean caros o baratos en referencia a otras fechas.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>    
+          <img class="img-fluid" src="/pvpc/images/bot2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
